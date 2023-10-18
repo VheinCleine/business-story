@@ -13,6 +13,8 @@ section {
   place-items: center;
   align-content: center;
   min-height: 100vh;
+  margin: 2rem;
+  background-size: contain;
 }
 
 .hidden {
@@ -61,7 +63,6 @@ ol {
 
 li {
   text-align: left;
-  max-width: 90%;
 }
 
 .nama {
@@ -70,4 +71,12 @@ li {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.gambar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
